@@ -2,27 +2,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        double width = 0;
+        double height = 0;
+        double area = 0;
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
-        System.out.println("Enter your age:");
-        int age = scanner.nextInt();
 
-        System.out.println("What is yout gpa :");
-        double GPA = scanner.nextDouble();
+        System.out.println("Enter your width :");
+        width = scanner.nextDouble();
 
-        System.out.println("Are you a student :");
-        boolean isStudent = scanner.nextBoolean();
+        System.out.println("Enter yout height :");
+        height = scanner.nextDouble();
 
-        System.out.println("Hello " + name);
-        System.out.println("You are " + age + " years old");
-        System.out.println("Your GPA is :" + GPA);
-        if (isStudent) {
-            System.out.println("You have enrolled");
-        }
-        else {
-            System.out.println("You are NOT enrolled");
-        }
+        area = width * height;
+
+        System.out.println("The area is: "+ area + "cm^2");
+
         scanner.close();
     }
 }
