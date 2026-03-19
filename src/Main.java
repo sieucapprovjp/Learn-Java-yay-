@@ -9,6 +9,8 @@ public class Main {
         String adj2;
         String Verb1;
         String adj3;
+        String adv1;
+
 
 
         scanner.close();
