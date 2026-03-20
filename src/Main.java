@@ -3,14 +3,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String name = "HEhehehe";
-        char firstLetter = 'H';
-        int age = 30;
-        double height = 60.5;
-        boolean isEmployed = true;
-        System.out.printf("Hello %s\n",name);
-        System.out.printf("Your name start with a %c\n",firstLetter);
-        System.out.printf("You re %d years old\n",age);
+
+        String name = "hehehe";
+
+        int length = name.length();
+        char letter = name.charAt(0);
+        int index = name.indexOf(" ");
+        int lastIndex = name.lastIndexOf("h");
+
+        System.out.printf("name length: %d\n",length);;
+        System.out.printf("char letter: %c\n",letter);
+        System.out.printf("Name index: %d\n",index);
+        System.out.printf("Last index: %d",lastIndex);
+
         scanner.close();
     }
 }
