@@ -3,16 +3,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        String adj1;
-        String noun1;
-        String adj2;
-        String Verb1;
-        String adj3;
-        String adv1;
-
-
-
+        String name = "HEhehehe";
+        char firstLetter = 'H';
+        int age = 30;
+        double height = 60.5;
+        boolean isEmployed = true;
+        System.out.printf("Hello %s\n",name);
+        System.out.printf("Your name start with a %c\n",firstLetter);
+        System.out.printf("You re %d years old\n",age);
         scanner.close();
     }
 }
