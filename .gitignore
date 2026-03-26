@@ -28,3 +28,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+.idea
+Yay_i_learn_java.iml

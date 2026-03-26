@@ -29,7 +29,7 @@ public class NhanVien {
 
     // Phương thức in thông tin
     public void inTTin() {
-        System.out.println("Tên NV: " + tenNhanVien);
+        System.out.println("Tên nhân viên: " + tenNhanVien);
         System.out.println("Lương cơ bản: " + luongCoBan);
         System.out.println("Hệ số lương: " + heSoLuong);
         System.out.printf("Tổng lương: %.2f\n", tinhLuong());
