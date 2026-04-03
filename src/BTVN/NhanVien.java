@@ -5,12 +5,13 @@ public class NhanVien {
     private String tenNhanVien;
     private double luongCoBan;
     private double heSoLuong;
-
+    private static int count;
     // Phương thức khởi tạo (Constructor)
     public NhanVien(String tenNhanVien, double luongCoBan, double heSoLuong) {
         this.tenNhanVien = tenNhanVien;
         this.luongCoBan = luongCoBan;
         this.heSoLuong = heSoLuong;
+        count++;
     }
 
     // Phương thức tính lương: Lương = Lương cơ bản * Hệ số
@@ -25,6 +26,9 @@ public class NhanVien {
             return true;
         }
         return false;
+    }
+    public static int demNhanVien() {
+        return count;
     }
 
     // Phương thức in thông tin
